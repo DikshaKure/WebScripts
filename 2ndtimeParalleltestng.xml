@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day9TestNg.AnnotationsOrange"/>
+      <class name="day9TestNg.DataProviderOrange"/>
+      <class name="day9TestNg.DemoAssert"/>
+      <class name="day9TestNg.DemoAnnotations"/>
+      <class name="day9TestNg.TwoApp"/>
+      <class name="day9TestNg.Demo2App"/>
+      <class name="day9TestNg.DemoDataProvder"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
