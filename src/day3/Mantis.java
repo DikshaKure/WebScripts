@@ -10,7 +10,7 @@ public class Mantis {
 		 System.setProperty("webdriver.chrome.driver" ,"C:\\Squad Selenium\\Driver\\chromedriver.exe");
 			WebDriver wd = new ChromeDriver();
 			wd.get("http://mantis.squadinfotech.in");
-		
+			//My Comment
 			wd.findElement(By.id("username")).sendKeys("tester1");
 			wd.findElement(By.cssSelector("input[type=submit]")).click();
 			wd.findElement(By.cssSelector("input[type=submit]")).click();
